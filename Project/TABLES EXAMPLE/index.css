@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+}
+table{
+    width: 90%;
+    text-align: center;
+    border:1px solid black ;
+    border-collapse: collapse;
+    margin: 50px;
+}
+th{
+    border: 1px solid black;
+    padding: 20px;
+}
+td{
+    border: 1px solid black;
+    padding: 15px;
+}
+th:nth-child(even){
+background-color: yellowgreen;
+color: whitesmoke;
+}
+.all{
+    margin: 70px;
+}
+.tab{
+    background-color: antiquewhite;
+}

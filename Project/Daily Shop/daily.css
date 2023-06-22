@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.usa{
+    display: flex;
+    justify-content: space-around;
+    background-color: aliceblue;
+}
+.sec2{
+    background-color: white;
+    padding: 30px 0px 30px 0px;
+}
+.cart{
+    font-size: 40px;
+    color: orangered;
+}
+.yourr{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.daily{
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.shop{
+    color: orangered;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.sea{
+    padding: 10px 300px 10px 0px;
+    border: 1px solid rgb(206, 205, 205);
+}
+.sear{
+    padding: 10px;
+    color: white;
+    background-color: orangered;
+    border: 1px solid orangered;
+}
+.sec2{
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 0px;
+}
+.bass{
+    padding-right: 150px;
+}
+.bas{
+    color: orangered;
+    font-size: 25px;
+    padding-left: 40px;
+}
+.shop1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+.sec3{
+    background-color: orangered;
+    color: white;
+    position: sticky;
+    top: 0;
+    
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 30px;
+}
+.sec4{
+    text-align: center;
+    background-image: url('woman.jpg');
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 100px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+.ho{
+    font-size: 20px;
+    padding-top: 10px;
+}
+.co{
+    text-decoration: none;
+    color: orangered;
+}
+.sec5{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: rgb(201, 201, 201);
+    
+}
+.divin{
+    border: 0px solid red;
+    max-width: 1100px;
+    margin: auto;
+    background-color: white;
+    box-shadow: 2px 2px 2px 2px burlywood;
+}
+.we{
+    text-align: center;
+    background-color: white;
+    padding: 40px 100px 40px 0px;
+    border: 0px solid white;
+}
+.we1{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.img iframe{
+    width: 100%;
+    height: 350px;
+}
+.your{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+.send{
+    padding: 8px 20px ;
+    background-color: white;
+    color: orangered;
+    border: 1px solid orangered;
+    box-shadow: 1px 1px 2px orangered;
+}
+.sub{
+    background-color: white;
+    padding: 50px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.enter{
+    padding: 7px 130px 7px 0px;
+}
+.subs{
+    padding: 9px 20px 9px 20px;
+    background-color: orangered;
+    border: none;
+    color: white;
+}.mainn{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    padding: 50px 0px;
+    font-family: sans-serif;
+}
+.div{
+    padding-bottom: 20px;
+}
+.fab{
+    border: 1px solid white;
+    padding: 5px;
+}
+.your2{
+   padding: 5px; 
+}
+
+@media(max-width: 981px){
+    .sea{
+        padding: 10px 250px 10px 0px;
+    } 
+}
+@media(max-width: 981px){
+    .sea{
+        padding: 10px 200px 10px 0px;
+    } 
+}
+@media(max-width: 919px){
+    .your{
+        justify-content: space-around;
+    }
+}
+@media(max-width: 879px){
+    .sea{
+        padding: 10px 150px 10px 0px;  
+    }
+    .your{
+        justify-content: space-evenly;
+        padding: 20px;
+
+    }
+}
+@media(max-width: 815px){
+    .sea{
+        padding: 10px 100px 10px 0px;  
+    }
+}
+@media(max-width: 768px){
+    .sea{
+        padding: 10px 50px 10px 0px;
+    }
+}
+@media(max-width: 718px){
+    .yourr{
+        font-size: 10px;
+    }
+    .your2{
+        padding: 2px;
+    }
+}
+@media(max-width: 691px){
+    .yourr{
+        font-size: 5px;
+    }
+}
+@media(max-width: 641px){
+    .daily{
+        font-size: 15px;
+    }
+    .shop{
+        font-size: 15px;
+    }
+}
+@media(max-width: 621px){
+    .cart{
+        font-size: 20px;
+    }
+} 
+@media(max-width: 599px){
+    .shop1{
+        font-size: 5px;
+        padding-left: 50px;
+    }
+    .sea{
+        padding: 10px 50px 10px 0px;
+    }
+}
+@media(max-width: 590px){
+    .whole{
+        flex-wrap: wrap;
+    }
+}
